@@ -22,7 +22,7 @@ function App() {
           <Colors colors={colors} />
         </Route>
         
-        <Route exact path="/colors/form">
+        <Route exact path="/colors/new">
           <ColorForm addColor={addColor} />
         </Route>
         <Route exact path="/colors/:color">
