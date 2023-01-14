@@ -6,12 +6,12 @@ const Colors = ({ colors }) => {
   console.log('colors', colors);
 
   document.querySelector('body').style.backgroundColor = 'white';
-  
+
   return (
     <div className="Colors-div">
       <div className="Colors-form-link-div">
         <h1>Welcome to the color factory.</h1>
-        <Link to="/colors/form">Add a color</Link>
+        <Link to="/colors/new">Add a color</Link>
       </div>
 
       <div className="Colors-nav">
